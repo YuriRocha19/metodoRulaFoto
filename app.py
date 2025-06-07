@@ -108,13 +108,13 @@ if uploaded_image is not None:
             rula_braco = calculate_rula_score_braco(angle_braco)
 
             # Exibir na imagem
-            cv2.putText(image, f'Tronco {side}: {int(angle_tronco)}° (RULA {rula_tronco})', (30, 40),
+            cv2.putText(image, f'Tronco {side}: {int(angle_tronco)} (RULA {rula_tronco})', (30, 40),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
-            cv2.putText(image, f'Pescoco {side}: {int(angle_pescoco)}° (RULA {rula_pescoco})', (30, 70),
+            cv2.putText(image, f'Pescoco {side}: {int(angle_pescoco)} (RULA {rula_pescoco})', (30, 70),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
-            cv2.putText(image, f'Antebraco {side}: {int(angle_antebraco)}° (RULA {rula_antebraco})', (30, 100),
+            cv2.putText(image, f'Antebraco {side}: {int(angle_antebraco)} (RULA {rula_antebraco})', (30, 100),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
-            cv2.putText(image, f'Braco {side}: {int(angle_braco)}° (RULA {rula_braco})', (30, 130),
+            cv2.putText(image, f'Braco {side}: {int(angle_braco)} (RULA {rula_braco})', (30, 130),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
 
             # Desenho dos pontos e linhas
